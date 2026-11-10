@@ -4,8 +4,6 @@
 
 ## Запуск в изолированной VM
 
-VM уже установлена и проверена. Один перенос нового пакета описан в [ISOLATION.md](ISOLATION.md). В VM:
-
 ```bash
 cd "$HOME/SupportAgentLinux"
 "$HOME/support-venv/bin/python" -m unittest discover -s tests -q
