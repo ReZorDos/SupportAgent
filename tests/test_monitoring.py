@@ -6,8 +6,8 @@ from unittest.mock import patch
 
 from evaluation.eval_suite import MemorySampler
 from evaluation.eval_summary import summarize
-from monitor import latest_eval_alerts, quality_below_target, sample_once
-from setup_monitor import generate_units
+from observability.monitor import latest_eval_alerts, quality_below_target, sample_once
+from observability.setup_monitor import generate_units
 from support_agent.policy import evidence_conflict
 from support_agent.system_metrics import cpu_percent, memory_snapshot
 

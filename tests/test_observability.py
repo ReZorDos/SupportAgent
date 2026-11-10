@@ -7,8 +7,8 @@ from pathlib import Path
 
 from support_agent.telemetry import Journal
 from support_agent.workflow import build_graph, run_turn
-from retention import purge
-from trace_view import load_trace, summarize_turn
+from observability.retention import purge
+from observability.trace_view import load_trace, summarize_turn
 
 
 class ServiceClient:

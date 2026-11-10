@@ -8,8 +8,9 @@ from support_agent.tools import execute_tool
 from support_agent.telemetry import Journal
 from support_agent.llm import Ollama
 from support_agent.models import (SolutionDraft, decision_schema, ClarificationReview, Route, ClarificationDraft, Verdict)
-from support_agent.policy import (known_file_problem, enforce_verdict, bind_evidence, clarification_verdict, clarification_task, required_resolution_mode, login_clarification_fallback, catalog_clarification_fallback, grounded_solution_fallback, grounded_clarification_fallback, adjudicate_grounded_fallback)
-from trace_view import load_trace, summarize_turn
+from support_agent.policy import (known_file_problem, enforce_verdict, bind_evidence, clarification_verdict, clarification_task, required_resolution_mode, login_clarification_fallback, catalog_clarification_fallback, grounded_solution_fallback,
+                                  adjudicate_grounded_fallback)
+from observability.trace_view import load_trace, summarize_turn
 
 
 class FakeClient:
