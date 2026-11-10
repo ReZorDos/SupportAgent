@@ -7,9 +7,9 @@ from pathlib import Path
 from contextlib import redirect_stdout
 from unittest.mock import patch
 
-import eval_suite
-from eval_suite import CASES, MemorySampler, automatic_checks, summarize_events, load_cases, source_fingerprint
-from eval_summary import summarize, save_summary, percentile_nearest_rank
+from evaluation import eval_suite
+from evaluation.eval_suite import CASES, MemorySampler, automatic_checks, summarize_events, load_cases, source_fingerprint
+from evaluation.eval_summary import summarize, save_summary, percentile_nearest_rank
 
 
 class EvalTests(unittest.TestCase):

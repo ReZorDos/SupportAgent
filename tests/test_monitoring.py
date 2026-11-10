@@ -4,8 +4,8 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from eval_suite import MemorySampler
-from eval_summary import summarize
+from evaluation.eval_suite import MemorySampler
+from evaluation.eval_summary import summarize
 from monitor import latest_eval_alerts, quality_below_target, sample_once
 from setup_monitor import generate_units
 from support_agent.policy import evidence_conflict
