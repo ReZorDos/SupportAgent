@@ -1,0 +1,10 @@
+{
+  "main_model": "qwen3.5:2b",
+  "validator_model": "gemma3:4b",
+  "model_residency": "grouped",
+  "dual_min_available_ram_gb": 1.5,
+  "num_ctx": 4096,
+  "num_predict": 350,
+  "max_tool_calls": 3,
+  "max_revisions": 2
+}
